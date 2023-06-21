@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>ADO.NET_Rsgiter_Login</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\loginico.png" />
+    <None Remove="img\registerico.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\loginico.png" />
+    <Resource Include="img\registerico.png" />
+  </ItemGroup>
+
+</Project>
